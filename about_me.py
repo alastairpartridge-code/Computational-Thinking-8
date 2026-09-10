@@ -1,0 +1,6 @@
+print("My name is Alastair.")
+print("I'm from Seattle.")
+print("My favorite sport is soccer.")
+print("Now I want to learn about you.")
+their_name = input("What's your name?")
+print(f"Hi{their_name}, nice to meet you.")
