@@ -10,3 +10,4 @@ if answer == "I don't know" or answer == "idk" or answer == "i don't know":
     print("ok.")
 else:
     print("Thats cool.")
+    answer2 = input(f"Hay {name} what is your favorite class?")
