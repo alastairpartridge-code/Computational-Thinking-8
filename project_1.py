@@ -1,0 +1,10 @@
+name = input("Hi my name is Robert, what's your name? ")
+print(f"nice to meet you {name}.")
+mood = input("How are you feeling today? ")
+print(f"I'm also feeling {mood}")
+print(f"Hey {name} I have a question?")
+input("")
+school_feeling = input("How was school? ")
+input(f"Why was it {school_feeling}?" )
+answer = input("")
+if answer == "I don't know"
