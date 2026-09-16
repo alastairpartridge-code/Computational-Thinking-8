@@ -9,5 +9,10 @@ answer = input(f"Why was it {school_feeling}?" )
 if answer == "I don't know" or answer == "idk" or answer == "i don't know":
     print("ok.")
 else:
-    print("Thats cool.")
-    answer2 = input(f"Hay {name} what is your favorite class?")
+    print("Thats nice.")
+answer2 = input(f"Hay {name} what is your favorite class? ")
+if answer2 == "PE" or answer2 == "pe":
+    print("No way PE is my favorite too!")
+else:
+    print("That's cool.")
+print(f"Good by {name} see you later.")
