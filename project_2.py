@@ -24,5 +24,15 @@ elif answer1 == "Go to school" or answer1 == "go to school":
         choice4 =("You haved skiped class, now you have time will you get food or go to sleep")
         if choice4 == "sleep" or choice4 == "Sleep" or choice4 == "go to sleep" or choice4 == "Go to sleep":
              print("Good night.")
+             if choice4 == "get food" or choice4 == "go get food" or choice4 == "Get food" or choice4 == "Go get food":
+                  print("Ok, hope the food is good.")
     elif choice3 == "Go to class" or choice3 == "go to class":
-        choice5 = input("You are really tierd and really bored.")
+            choice5 = input("You are really tierd and really bored. Do you go to sleep or skip the next class? ")
+            if choice5 == "sleep" or choice5 == "Sleep":
+             print("Good night")
+            elif choice5 == "Skip" or choice5 == "skip" or choice5 == "skip class" or choice5 == "Skip class":
+                print("You have skiped class but you are feeling really tired, so you decide to take a nap.")
+    else:
+             print("Pick one of the options")
+else:
+        print("Pick one of the options.")
