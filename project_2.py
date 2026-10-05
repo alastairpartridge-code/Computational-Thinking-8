@@ -3,7 +3,7 @@ if answer1 == "stay home" or answer1 == "Stay home" or  answer1 == "Stay home." 
     choice1 = input("Will you go to sleep or watch TV and play video games? ")
     if choice1 == "sleep" or choice1 == "Sleep":
         print("Ok, good night.")
-    elif choice1 == "play video games and watch TV" or choice1 == "TV and video games" or choice1 == "tv and video games":
+    elif choice1 == "play video games and watch TV" or choice1 == "TV and video games" or choice1 == "tv and video games" or choice1 == "watch tv and play video games" or choice1 == "watch tv" or choice1 == "play video game" or choice1 == "tv" or choice1 == "video games" or choice1 == "TV":
         choice2 = input("Will you play Fc 27 or Fortnite? ")
         if choice2 == "Fc 27" or choice2 == "FC 27" or choice2 == "fc 27":
             team1 = input("will you be Liverpool or Real Madrid? ")
