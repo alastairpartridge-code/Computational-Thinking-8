@@ -1,7 +1,7 @@
 answer1 = input("You wake up. Will you go to school or stay home? ")
 if answer1 == "stay home" or answer1 == "Stay home" or  answer1 == "Stay home." or answer1 == "skip":
     choice1 = input("Will you go to sleep or watch TV and play video games? ")
-    if choice1 == "sleep" or choice1 == "Sleep":
+    if choice1 == "sleep" or choice1 == "Sleep" or choice1 == "go to sleep":
         print("Ok, good night.")
     elif choice1 == "play video games and watch TV" or choice1 == "TV and video games" or choice1 == "tv and video games" or choice1 == "watch tv and play video games" or choice1 == "watch tv" or choice1 == "play video game" or choice1 == "tv" or choice1 == "video games" or choice1 == "TV":
         choice2 = input("Will you play Fc 27 or Fortnite? ")
@@ -16,7 +16,7 @@ if answer1 == "stay home" or answer1 == "Stay home" or  answer1 == "Stay home." 
         else:
                 print ("Pick one of the options.")
     else:
-            print("Pick one of the options")
+            print("Pick one of the options.")
             
 elif answer1 == "Go to school" or answer1 == "go to school":
     choice3 = input("You have arrived at school. Will you go to your first class or skip?")
@@ -33,6 +33,6 @@ elif answer1 == "Go to school" or answer1 == "go to school":
             elif choice5 == "Skip" or choice5 == "skip" or choice5 == "skip class" or choice5 == "Skip class":
                 print("You have skiped class but you are feeling really tired, so you decide to take a nap.")
     else:
-             print("Pick one of the options")
+             print("Pick one of the options.")
 else:
         print("Pick one of the options.")
