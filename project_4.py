@@ -1,5 +1,5 @@
 import random
-random_player = ["Messi", "Ronaldo", "Barcola", "Haaland", "Bellingham", "Yamal"]
+random_player = ["Messi", "Ronaldo", "Doue", "Haaland", "Bellingham", "Yamal"]
 hidden_player = random.choice(random_player)
 for i in range (5):
     # Start of code
