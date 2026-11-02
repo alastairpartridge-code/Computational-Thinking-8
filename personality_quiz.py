@@ -8,12 +8,14 @@ if answer1 == "team sports" or answer1 == "Team sports" or answer1 == "team" or 
     basketball_points += 1
 elif answer1 == "solo sports" or answer1 == "Solo sports" or answer1 == "solo" or answer1 == "Solo":
     track_points += 1
+    # Second question
 answer2 = input ("Do you like outdoor sports or indoor sports? ")
 if answer2 == "outdoor" or answer2 == "Outdoor":
     soccer_points += 2
     track_points += 1
 elif answer2 == "indoor" or answer2 == "Indoor":
     basketball_points += 1
+    # Third question
 answer3 = input ("Do you prefer sports where you use your hands or legs? ")
 if answer3 == "hands" or answer3 == "Hands":
     basketball_points += 1
@@ -21,6 +23,7 @@ if answer3 == "hands" or answer3 == "Hands":
 elif answer3 == "legs" or answer3 == "Legs":
     soccer_points += 1
     track_points += 1
+    # Forth question
 answer4 = input ("What do you like watching more the World Cup, the Olympics, or the NBA? ")
 if answer4 == "the world cup" or answer4 == "The World Cup" or answer4 == "world cup" or answer4 == "World Cup":
     soccer_points += 1
@@ -29,6 +32,7 @@ if answer4 == "Olympics" or answer4 == "olympics" or answer4 == "the olympics" o
     soccer_points += .5
 if answer4 == "NBA" or answer4 == "nba":
     basketball_points += 1
+    # Fith question
 answer5 = input ("Which sport do you like more soccer, track, or basketball? ")
 if answer5 == "soccer" or answer5 == "Soccer":
     soccer_points += 2
@@ -42,3 +46,4 @@ elif track_points > soccer_points and track_points > basketball_points:
     print ("You are a track and field runner!")
 elif basketball_points > soccer_points and basketball_points > soccer_points:
     print ("You are basketball player!")
+    #End of quiz
